@@ -1,0 +1,242 @@
+body{
+    width:100vw;
+    height:100vh;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+    background-color: rgb(180, 235, 235);
+}
+.pagecontainer{
+    width:100vw;
+    height:100vh;
+    padding:0px;
+    margin:0px;
+    background-color: rgb(180, 235, 235);
+    align-items: center;
+}
+.maincontainer{
+    width:60vw;
+    height:70vh;
+    background-color:antiquewhite;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+  
+}
+.maincontainer.disable .editingpanel,
+.maincontainer.disable .controllpannel .reset,
+.maincontainer.disable .controls .saveimage{
+  opacity: 0.5;
+  pointer-events: none;
+}
+h2{
+    color: brown;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-top: 2%;
+   
+}
+.editingpannel{
+    width:90%;
+    height:70%;
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.filter{
+    width:40%;
+    height:100%;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.imagepreview{
+    width: 58%;
+    height: 100% ;
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-right: 0%;
+}
+.imgpreview{
+    width: 85%;
+    height:85%;
+    margin-top: 7.5%;
+    margin-left: 7.5%;
+
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.title{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+#brightness{
+    width:130px;
+    height:40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 15px;
+}
+#saturation{
+    width:130px;
+    height:40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 15px;
+}
+#inversion{
+    width:130px;
+    height:40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-top:5% ;
+    font-size: 15px;
+}
+#greyscale{
+    width:130px;
+    height:40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: auto;
+    margin-top:5% ;
+    font-size: 15px;
+}
+.filter button.active{
+    color: #fff;
+    border-color: #5372F0;
+    background: #5372F0;
+}
+.filter-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+.value{
+    margin-left: 54%;
+}
+.range{
+    width:90%;
+    margin-left: 5%;
+}
+.rotate{
+    width:90%;
+    height:20%;
+    /* background-color: aquamarine; */
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+.rotate .options2 button:active{
+    color: #fff;
+    background: #5372F0;
+    border-color: #5372F0;
+}
+.options2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    /* background-color: brown; */
+}
+.fa-solid{
+    font-size: 20px;
+}
+.bx{
+    font-size: 20px;
+}
+#left{
+    width:20%;
+    height:70%;
+    margin: auto;
+    margin-left: 0%;
+}
+#right{
+    width:20%;
+    height:70%;
+    margin: auto;
+
+}
+#horizontal{
+    width:20%;
+    height:70%;
+    margin: auto;
+}
+#vertical{
+    width:20%;
+    height:70%;
+    margin: auto;
+    margin-right: 0%;
+}
+.controllpannel{
+    width:90%;
+    height:15%;
+    /* background-color: aqua; */
+    margin-top: 1%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.reset{
+    width:150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 2%;
+
+}
+.imgbtn{
+    /* background-color: blue; */
+    width: 70%;
+    height: 100%;
+    margin-left: 11%;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+}
+.chooseimage{
+    width:170px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 2%;
+    margin-left: 44%;
+   
+    background-color: grey;
+    color: white;
+
+}
+.saveimage{
+    width:130px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 2%;
+    margin-left: 2%;
+  
+    background-color: rgb(29, 84, 235);
+    color: white;
+
+}
+.file-input{
+    margin-top: 5%;
+    margin-left: 2%;
+    background-color: blanchedalmond;
+    width: 200px;
+    height: 25px;
+} 
